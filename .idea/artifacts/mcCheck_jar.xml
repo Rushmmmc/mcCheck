@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mcCheck:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mcCheck_jar</output-path>
+    <root id="archive" name="mcCheck.jar">
+      <element id="module-output" name="mcCheck" />
+      <element id="dir-copy" path="$PROJECT_DIR$/example" />
+      <element id="dir-copy" path="$PROJECT_DIR$/res" />
+    </root>
+  </artifact>
+</component>
