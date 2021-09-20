@@ -13,14 +13,12 @@ import java.util.TreeSet;
  */
 public class Article {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        double rate = Article.getRate(sc.nextLine(),
-                sc.nextLine());
-        Article.output(sc.nextLine(),rate);
+        double rate = Article.getRate(args[0],
+                args[1]);
+        Article.output(args[2],rate);
     }
     //储存相邻汉字之间两两结合的Hash作为论文特征,并排序。
     private final SortedSet<Integer> sortedHashFeature = new TreeSet<>();
-
     //两个字的词的数量
     private final int wordsCount;
 
